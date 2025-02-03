@@ -1,18 +1,64 @@
 {
-  "tasks": [
+  "users": [
     {
       "id": 1,
-      "title": "Learn Angular",
-      "description": "Start with components, services, and directives.",
-      "dueDate": "2025-02-10T00:00:00Z",
-      "completed": false
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "hashedpassword1"
     },
     {
       "id": 2,
-      "title": "Create Task Manager App",
-      "description": "Build a task manager app using Angular.",
-      "dueDate": "2025-02-15T00:00:00Z",
-      "completed": false
+      "name": "Alice Smith",
+      "email": "alice@example.com",
+      "password": "hashedpassword2"
+    }
+  ],
+  
+  "categories": [
+    {
+      "id": 1,
+      "name": "Work",
+      "description": "Tasks related to work and professional activities."
+    },
+    {
+      "id": 2,
+      "name": "Personal",
+      "description": "Tasks related to personal life and hobbies."
+    },
+    {
+      "id": 3,
+      "name": "Shopping",
+      "description": "Tasks related to purchasing items."
+    }
+  ],
+  
+  "todos": [
+    {
+      "id": 1,
+      "title": "Finish Angular Task Manager App",
+      "description": "Complete the Angular project for the task manager app.",
+      "dueDate": "2025-02-10T00:00:00Z",
+      "completed": false,
+      "userId": 1,
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "title": "Buy groceries",
+      "description": "Purchase fruits, vegetables, and snacks.",
+      "dueDate": "2025-02-05T00:00:00Z",
+      "completed": false,
+      "userId": 2,
+      "categoryId": 3
+    },
+    {
+      "id": 3,
+      "title": "Read a book",
+      "description": "Read 30 pages of a new book every day.",
+      "dueDate": "2025-02-07T00:00:00Z",
+      "completed": false,
+      "userId": 2,
+      "categoryId": 2
     }
   ]
 }
