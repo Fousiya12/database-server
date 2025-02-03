@@ -1,0 +1,18 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Learn Angular",
+      "description": "Start with components, services, and directives.",
+      "dueDate": "2025-02-10T00:00:00Z",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "Create Task Manager App",
+      "description": "Build a task manager app using Angular.",
+      "dueDate": "2025-02-15T00:00:00Z",
+      "completed": false
+    }
+  ]
+}
